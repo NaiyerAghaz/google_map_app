@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D5592CD24235B80002841E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5592CC24235B80002841E0 /* AppDelegate.swift */; };
+		2D5592CF24235B80002841E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5592CE24235B80002841E0 /* SceneDelegate.swift */; };
+		2D5592D124235B80002841E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5592D024235B80002841E0 /* ViewController.swift */; };
+		2D5592D424235B80002841E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5592D224235B80002841E0 /* Main.storyboard */; };
+		2D5592D624235B83002841E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5592D524235B83002841E0 /* Assets.xcassets */; };
+		2D5592D924235B83002841E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5592D724235B83002841E0 /* LaunchScreen.storyboard */; };
+		356D8A105062087C8FAA9A35 /* Pods_LiveMapApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663C74912138C7481FA71D6F /* Pods_LiveMapApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D5592C924235B80002841E0 /* LiveMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5592CC24235B80002841E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D5592CE24235B80002841E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2D5592D024235B80002841E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D5592D324235B80002841E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D5592D524235B83002841E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D5592D824235B83002841E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D5592DA24235B83002841E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AAABCF3FEAB7047775B7E32 /* Pods-LiveMapApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveMapApp.debug.xcconfig"; path = "Target Support Files/Pods-LiveMapApp/Pods-LiveMapApp.debug.xcconfig"; sourceTree = "<group>"; };
+		663C74912138C7481FA71D6F /* Pods_LiveMapApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveMapApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7291D02FEDCB81565F85D8 /* Pods-LiveMapApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveMapApp.release.xcconfig"; path = "Target Support Files/Pods-LiveMapApp/Pods-LiveMapApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D5592C624235B80002841E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356D8A105062087C8FAA9A35 /* Pods_LiveMapApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D5592C024235B80002841E0 = {
+			isa = PBXGroup;
+			children = (
+				2D5592CB24235B80002841E0 /* LiveMapApp */,
+				2D5592CA24235B80002841E0 /* Products */,
+				49A6AE468CD01BBDD538F517 /* Pods */,
+				3DEBF821AF1A33BCFA2DA59F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D5592CA24235B80002841E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D5592C924235B80002841E0 /* LiveMapApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D5592CB24235B80002841E0 /* LiveMapApp */ = {
+			isa = PBXGroup;
+			children = (
+				2D5592CC24235B80002841E0 /* AppDelegate.swift */,
+				2D5592CE24235B80002841E0 /* SceneDelegate.swift */,
+				2D5592D024235B80002841E0 /* ViewController.swift */,
+				2D5592D224235B80002841E0 /* Main.storyboard */,
+				2D5592D524235B83002841E0 /* Assets.xcassets */,
+				2D5592D724235B83002841E0 /* LaunchScreen.storyboard */,
+				2D5592DA24235B83002841E0 /* Info.plist */,
+			);
+			path = LiveMapApp;
+			sourceTree = "<group>";
+		};
+		3DEBF821AF1A33BCFA2DA59F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				663C74912138C7481FA71D6F /* Pods_LiveMapApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49A6AE468CD01BBDD538F517 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AAABCF3FEAB7047775B7E32 /* Pods-LiveMapApp.debug.xcconfig */,
+				9D7291D02FEDCB81565F85D8 /* Pods-LiveMapApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D5592C824235B80002841E0 /* LiveMapApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D5592DD24235B83002841E0 /* Build configuration list for PBXNativeTarget "LiveMapApp" */;
+			buildPhases = (
+				902A931420C7A90A9E25A882 /* [CP] Check Pods Manifest.lock */,
+				2D5592C524235B80002841E0 /* Sources */,
+				2D5592C624235B80002841E0 /* Frameworks */,
+				2D5592C724235B80002841E0 /* Resources */,
+				DC7DB6B4FBD03A1B5A31A86C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveMapApp;
+			productName = LiveMapApp;
+			productReference = 2D5592C924235B80002841E0 /* LiveMapApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D5592C124235B80002841E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "SMIT iMac27";
+				TargetAttributes = {
+					2D5592C824235B80002841E0 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 2D5592C424235B80002841E0 /* Build configuration list for PBXProject "LiveMapApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D5592C024235B80002841E0;
+			productRefGroup = 2D5592CA24235B80002841E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D5592C824235B80002841E0 /* LiveMapApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D5592C724235B80002841E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5592D924235B83002841E0 /* LaunchScreen.storyboard in Resources */,
+				2D5592D624235B83002841E0 /* Assets.xcassets in Resources */,
+				2D5592D424235B80002841E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		902A931420C7A90A9E25A882 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiveMapApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC7DB6B4FBD03A1B5A31A86C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiveMapApp/Pods-LiveMapApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiveMapApp/Pods-LiveMapApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LiveMapApp/Pods-LiveMapApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D5592C524235B80002841E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5592D124235B80002841E0 /* ViewController.swift in Sources */,
+				2D5592CD24235B80002841E0 /* AppDelegate.swift in Sources */,
+				2D5592CF24235B80002841E0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D5592D224235B80002841E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D5592D324235B80002841E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D5592D724235B83002841E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D5592D824235B83002841E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D5592DB24235B83002841E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		2D5592DC24235B83002841E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D5592DE24235B83002841E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AAABCF3FEAB7047775B7E32 /* Pods-LiveMapApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SNEPYZ6GY4;
+				INFOPLIST_FILE = LiveMapApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartitventure.LiveMapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D5592DF24235B83002841E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D7291D02FEDCB81565F85D8 /* Pods-LiveMapApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SNEPYZ6GY4;
+				INFOPLIST_FILE = LiveMapApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartitventure.LiveMapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D5592C424235B80002841E0 /* Build configuration list for PBXProject "LiveMapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5592DB24235B83002841E0 /* Debug */,
+				2D5592DC24235B83002841E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D5592DD24235B83002841E0 /* Build configuration list for PBXNativeTarget "LiveMapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5592DE24235B83002841E0 /* Debug */,
+				2D5592DF24235B83002841E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D5592C124235B80002841E0 /* Project object */;
+}

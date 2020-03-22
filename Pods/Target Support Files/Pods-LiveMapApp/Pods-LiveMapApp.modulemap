@@ -1,0 +1,6 @@
+framework module Pods_LiveMapApp {
+  umbrella header "Pods-LiveMapApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
